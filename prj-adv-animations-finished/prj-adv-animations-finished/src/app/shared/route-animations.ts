@@ -18,7 +18,7 @@ export const routeSlideStateTrigger = trigger('routeSlideState', [
       transform: 'translateY(-100%)',
       opacity: 0
     }),
-    animate(300)
+    animate(700)
   ]),
   transition(':leave', animate(300, style({
     transform: 'translateY(100%)',
